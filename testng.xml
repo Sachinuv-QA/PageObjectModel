@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/sachi/IdeaProjects/pageobjectmodel/src/test/java/Logintest.java">
+        <classes>
+            <class name="pageobjectmodel.Logintest">
+                <methods>
+                    <include name="testWithPageFactory"/>
+                    <include name="testWithoutPageFactory"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
